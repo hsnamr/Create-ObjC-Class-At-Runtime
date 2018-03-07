@@ -26,7 +26,7 @@ void createClass() {
     Car =  objc_allocateClassPair([NSObject class], "Car", 0);
     
     // add iVar
-    class_addIvar(Car, "_wheels", sizeof(size_t), log2(sizeof(size_t)), @encode(NSNumber*));
+    class_addIvar(Car, "_wheels", sizeof(NSNumber*), log2(sizeof(NSNumber*)), @encode(NSNumber*));
     
     // add property
     objc_property_attribute_t type = { "T", "@\"NSNumber\"" };
