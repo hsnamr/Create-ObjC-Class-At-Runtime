@@ -1,7 +1,6 @@
 //
 //  main.m
 //
-//  Created by Hussian Al-Amri on 03/07/2018.
 //  Copyright © 2018 H4n. All rights reserved.
 //
 
